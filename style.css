@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    width: 10rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 10px;
+}
+nav ul li a{
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.text{
+    padding: 20px 5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.text-box-1 p{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fc036b;
+    margin-bottom: 20px;
+}
+.text-box-1 h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+.content{
+    line-height: 40px;
+    text-align: right;
+    font-size: 14px;
+}
+.rakib-1{
+    padding: 10px 5%;
+    margin-top: -1rem;
+}
+.rakib{
+    width: 100%;
+    height: 1px;
+    background:#ccc;
+    border: none;
+    outline: none;
+}
+.letter-text{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+.letter-text p{
+    font-size: 13px;
+    color: #afafaf;
+    max-width: 600px;
+    line-height: 20px;
+}
+.line{
+    padding: 10px 5%;
+    margin-top: -2.4rem;
+}
+.line-1{
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+    outline: none;
+}
+.team p{
+    padding: 30px 10%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+.team p::before{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 0.8px;
+    background: #ff004e;
+    top: 50%;
+    left:5%;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: #10093c;
+}
+.slider-img{
+    width: 10rem;
+}
+.footer-text-1 h1{
+    font-size: 30px;
+    color: #fff;
+}
+.footer-text-1 p{
+    color: #fff;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.footer-text-1 h5{
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+}
+.footer-text-1 h5::after{
+    content: '';
+    width: 30px;
+    position: absolute;
+    height: 0.8px;
+    top: 50%;
+    margin-left: 10px;
+    background-color: #ff004e;
+}
+.holland-park{
+    margin-top: 10px;
+}
+.holland{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.holland p{
+    color: #afafaf;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.footer-text-2 p{
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #afafaf;
+    margin-top: 3.7rem;
+}
+.our{
+    font-weight: bold;
+}
